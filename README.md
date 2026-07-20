@@ -17,11 +17,7 @@ A single-file userscript that reads WhatsApp Web's **internal message store dire
 
 ---
 
-<div align="center">
-<img src="docs/ui.png" alt="Purr WA Export panel" width="420">
-&nbsp;&nbsp;
-<img src="docs/contacts.png" alt="Contacts export preview" width="420">
-</div>
+<img src="docs/install.gif" alt="Purr WA Export demo" width="600">
 
 ---
 
