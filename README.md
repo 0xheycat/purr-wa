@@ -6,9 +6,11 @@
 
 A single-file userscript that reads WhatsApp Web's **internal message store directly** (no DOM scraping, no screenshots, no WA-JS). Pick some chats or all of them, choose your formats, hit export.
 
-[![version](https://img.shields.io/badge/version-1.0.0-00a884)](https://github.com/0xheycat/purr-wa-export)
+[![CI](https://github.com/0xheycat/purr-wa/actions/workflows/ci.yml/badge.svg)](https://github.com/0xheycat/purr-wa/actions/workflows/ci.yml)
+[![version](https://img.shields.io/badge/version-1.0.1-00a884)](https://github.com/0xheycat/purr-wa/releases)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![userscript](https://img.shields.io/badge/type-userscript-f2c94c)](https://www.tampermonkey.net/)
+[![project](https://img.shields.io/badge/project-0xheycat.xyz-f5b45a)](https://0xheycat.xyz/work/purr-wa)
 [![made by](https://img.shields.io/badge/by-0xheycat-c04bff)](https://github.com/0xheycat)
 
 <sub>Made with 🐾 by <a href="https://github.com/0xheycat">0xheycat</a> · <a href="https://x.com/0xheycat">@0xheycat</a></sub>
@@ -54,7 +56,7 @@ A single-file userscript that reads WhatsApp Web's **internal message store dire
 
 <br>
 
-https://github.com/0xheycat/purr-wa-export/raw/main/docs/install.mp4
+https://github.com/0xheycat/purr-wa/raw/main/docs/install.mp4
 
 <sub>If the player doesn't load, <a href="docs/install.mp4">download <code>docs/install.mp4</code></a> and open it locally.</sub>
 
@@ -65,8 +67,8 @@ https://github.com/0xheycat/purr-wa-export/raw/main/docs/install.mp4
 ## 🚀 Install
 
 1. Install a userscript manager: **[Tampermonkey](https://www.tampermonkey.net/)** (Chrome/Brave/Edge/Firefox) or **[Violentmonkey](https://violentmonkey.github.io/)**.
-2. Open **[`purr-wa-export.user.js`](purr-wa-export.user.js)** → click **Raw** → Tampermonkey will offer to install it.
-   - *Or* open the Tampermonkey dashboard → **+ (Create a new script)** → paste the file contents → **Save**.
+2. Open the **[direct install link](https://raw.githubusercontent.com/0xheycat/purr-wa/main/purr-wa-export.user.js)**. Tampermonkey or Violentmonkey will offer to install it.
+   - Manual fallback: open [`purr-wa-export.user.js`](purr-wa-export.user.js), copy the source, then paste it into a new userscript.
 3. Open **[web.whatsapp.com](https://web.whatsapp.com/)** and log in.
 4. A floating **🐾 Purr WA Export** panel appears in the top-right corner.
 
@@ -112,7 +114,7 @@ Message bodies are read as plaintext directly from the loaded store, so exports 
 ## ❓ FAQ
 
 **Is my data uploaded anywhere?**
-No. Everything runs in your browser tab. There is no server, no tracking, no network calls beyond loading JSZip from a CDN.
+No. Export processing runs in your browser tab. There is no analytics or application server. The userscript loads JSZip from cdnjs and WhatsApp Web itself continues making its normal network requests.
 
 **Why only recent messages for some chats?**
 That's the WhatsApp multi-device sync window — see *Limitations* above.
@@ -126,7 +128,8 @@ It targets `web.whatsapp.com`. Use it in a browser.
 
 - Single-file **userscript**, vanilla JS, no build step.
 - CSP-safe DOM building (no `innerHTML` injection for the panel).
-- ~400 lines, MIT-licensed, hackable.
+- MIT-licensed and dependency-light.
+- Repository validation checks userscript syntax, metadata, release version, and canonical project links.
 
 ---
 
