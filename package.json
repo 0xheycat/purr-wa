@@ -1,0 +1,13 @@
+{
+  "name": "purr-wa-export",
+  "version": "1.0.1",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "npm@10.8.2",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "check": "node --check purr-wa-export.user.js && node scripts/validate.mjs"
+  }
+}

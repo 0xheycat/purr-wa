@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name         Purr WA Export
 // @namespace    https://github.com/0xheycat
-// @version      1.0.0
+// @version      1.0.1
 // @description  Bulk-export your own WhatsApp Web chats to TXT / HTML / CSV. Reads WhatsApp's internal Store directly (no DOM scraping, no WA-JS). by 0xheycat
 // @author       0xheycat
-// @homepageURL  https://github.com/0xheycat
-// @supportURL   https://github.com/0xheycat/purr-wa-export/issues
+// @homepageURL  https://github.com/0xheycat/purr-wa
+// @supportURL   https://github.com/0xheycat/purr-wa/issues
+// @downloadURL  https://raw.githubusercontent.com/0xheycat/purr-wa/main/purr-wa-export.user.js
+// @updateURL    https://raw.githubusercontent.com/0xheycat/purr-wa/main/purr-wa-export.user.js
+// @license      MIT
 // @match        https://web.whatsapp.com/*
 // @run-at       document-idle
 // @grant        none
@@ -26,7 +29,7 @@
 
   var WM = '0xheycat';
   var APP = 'Purr WA Export';
-  var REPO = 'https://github.com/0xheycat';
+  var REPO = 'https://github.com/0xheycat/purr-wa';
   var cfg = Object.assign({ afterOpen: 700, betweenChats: 350, scrollTries: 10, scrollWait: 650, scrollNoGrow: 3, mediaTimeout: 6000 }, (window.__PURR_CFG || {}));
   var sleep = function (ms) { return new Promise(function (r) { setTimeout(r, ms); }); };
   var req = function () { return window.require || self.require; };
@@ -340,7 +343,7 @@
 
     body.appendChild(main);
     var foot = E('div', 'text-align:center;font-size:11px;color:#54656f;padding:8px 0 2px');
-    foot.appendChild(E('span', '', { text: APP + ' v1.0.0 · by ' + WM }));
+    foot.appendChild(E('span', '', { text: APP + ' v1.0.1 · by ' + WM }));
     body.appendChild(foot);
     panel.appendChild(body);
     document.body.appendChild(panel);
