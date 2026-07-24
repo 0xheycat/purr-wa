@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐾 Purr WA Export
+<img src="assets/logo.svg" alt="Purr WA Export" width="520" />
 
 ### Bulk-export your own WhatsApp Web chats to **TXT · HTML · CSV** — in one click.
 
@@ -136,5 +136,11 @@ It targets `web.whatsapp.com`. Use it in a browser.
 ## 📜 License
 
 [MIT](LICENSE) © [0xheycat](https://github.com/0xheycat)
+
+---
+
+## Keywords
+
+<sub>`purr-wa` · `whatsapp-chat-export` · `whatsapp-web-exporter` · `export-whatsapp-to-pdf` · `whatsapp-to-csv` · `whatsapp-to-html` · `whatsapp-chat-backup` · `bulk-chat-export` · `userscript` · `tampermonkey` · `local-first` · `privacy-first` · `no-server` · `group-participants-export` · `contacts-export`</sub>
 
 <div align="center"><sub>🐾 Purr WA Export — by 0xheycat</sub></div>
