@@ -10,7 +10,7 @@ A single-file userscript that reads WhatsApp Web's **internal message store dire
 [![version](https://img.shields.io/badge/version-1.0.1-00a884)](https://github.com/0xheycat/purr-wa/releases)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![userscript](https://img.shields.io/badge/type-userscript-f2c94c)](https://www.tampermonkey.net/)
-[![project](https://img.shields.io/badge/project-0xheycat.xyz-f5b45a)](https://0xheycat.xyz/work/purr-wa)
+[![project](https://img.shields.io/badge/project-0xheycat.xyz-f5b45a)](https://0xheycat.xyz)
 [![made by](https://img.shields.io/badge/by-0xheycat-c04bff)](https://github.com/0xheycat)
 
 <sub>Made with 🐾 by <a href="https://github.com/0xheycat">0xheycat</a> · <a href="https://x.com/0xheycat">@0xheycat</a></sub>
