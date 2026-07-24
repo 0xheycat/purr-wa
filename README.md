@@ -139,6 +139,19 @@ It targets `web.whatsapp.com`. Use it in a browser.
 
 ---
 
+## Contributing
+
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-00A884.svg)](CONTRIBUTING.md)
+[![good first issues](https://img.shields.io/github/issues/0xheycat/purr-wa/good%20first%20issue?label=good%20first%20issues&color=7057ff)](https://github.com/0xheycat/purr-wa/labels/good%20first%20issue)
+
+Contributions are welcome and appreciated! 🐾
+
+- 📖 Read the [Contributing guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md).
+- 🌱 New here? Look for [`good first issue`](https://github.com/0xheycat/purr-wa/labels/good%20first%20issue).
+- 💬 Ideas & questions → [Discussions](https://github.com/0xheycat/purr-wa/discussions).
+
+---
+
 ## Keywords
 
 <sub>`purr-wa` · `whatsapp-chat-export` · `whatsapp-web-exporter` · `export-whatsapp-to-pdf` · `whatsapp-to-csv` · `whatsapp-to-html` · `whatsapp-chat-backup` · `bulk-chat-export` · `userscript` · `tampermonkey` · `local-first` · `privacy-first` · `no-server` · `group-participants-export` · `contacts-export`</sub>
